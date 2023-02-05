@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Usando Cdn -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- Baixando o arquivo e Renomeando-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            alert('DOM Carregado!!!');
+        });
+
+        /* Mais simplificado
+        $(function(){
+
+        })
+        */
+
+        $(window).load(function(){
+            alert('Elementos Carregados!!');
+        });
+    </script>
+</head>
+<body>
+    <img src="paisagem.jpg" alt="">
+</body>
+</html>
